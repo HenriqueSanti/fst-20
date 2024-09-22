@@ -1,0 +1,64 @@
+/* HEADER DESKTOP*/
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: var(--container-desktop);
+    border-bottom: .2px solid var(--stroke);
+
+    /*Background*/
+    background-color: var(--bg);
+
+    /*Position*/
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    
+}
+
+.logo {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+nav ul {
+   display: flex;
+   list-style: none; 
+}
+
+nav ul li a {
+    padding: 20px 30px;
+    color: var(--text-light);
+    display: block;
+    text-decoration: none;
+    font-weight: 400;
+    border-left: .2px solid var(--stroke);
+    border-right: .2px solid var(--stroke);
+
+    font-size: 24px;
+
+    transition: .3s ease-in-out;
+
+}
+
+nav ul li a:hover, a.active {
+    background-color: var(--stroke);
+    color: var(--text-light);
+}
+
+a.btn {
+    background-color: var(--btn-primary);
+}
+
+a.btn:hover {
+    background-color: var(--btn-secondary);
+}
+
+/*HEADER TABLET*/
+
+
+
+/*HEADER MOBILE*/

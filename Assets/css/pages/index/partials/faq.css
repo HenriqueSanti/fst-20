@@ -1,0 +1,26 @@
+/*FAQ DESKTOP*/
+
+section.faq {
+    padding: 6rem var(--container-desktop);
+}
+
+section.faq .cordeon {
+    border: .2px solid var(--stroke);
+    transition: all .3s ease-in-out;
+
+}
+
+section.faq .cordeon .cordeon-header {
+    justify-content: start;
+    font-size: 20px;
+    padding: 3rem;
+}
+
+section.faq .cordeon .cordeon-header .number {
+    margin-right: 1rem;
+}
+
+/*FAQ TABLET*/
+
+
+/*FAQ MOBILE*/

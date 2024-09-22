@@ -1,0 +1,102 @@
+/*CTA DESKTOP*/
+section.cta {
+    background-image: url(public/Background\ Turbo\ 2.0\ \(1\).png);
+}
+
+
+.full, .stack, .turbo {
+    font-family: var(--font-secondary);
+    font-size: 140px;
+    color: var(--text-light);
+}
+
+.cta .col {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.full {
+    grid-row: 1/2;
+}
+
+.chamada {
+    grid-row: 2/3;
+}
+
+.turbo {
+    grid-row: 4;
+}
+
+.stack {
+    grid-row: 2/3;
+}
+
+section.cta .headline {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    width: 100%;
+    flex-direction: column;
+    padding: 60px 40px 40px 40px;
+    gap: 20px;
+}
+
+section.cta .main-col {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+section.cta .main-col .headline .price {
+    padding: 3rem;
+    border: .1px solid var(--stroke);
+}
+
+section.cta .main-col .headline .price p {
+    color: var(--bg-secodary);
+    font-weight: 600;
+}
+
+section.cta .main-col .headline .price p span {
+    text-decoration: line-through;
+}
+
+section.cta .main-col .headline .price h2 {
+    color: var(--text-light);
+    font-size: 30px;
+}
+
+section.cta .main-col .headline .price h2 span {
+    color: var(--text-light);
+    font-size: 60px;
+}
+
+section.cta .main-col .headline ul {
+    list-style: none;
+    color: var(--text-light);
+    padding: 2rem 0;
+}
+
+section.cta .main-col .headline ul li {
+    margin: 20px 0;
+    font-size: 20px;
+}
+
+section.cta .main-col .headline ul li span {
+    display: inline-block;
+    padding: 0 12px;
+    background-color: var(--btn-primary);
+    border-radius: 100px;
+    margin-right: 10px;
+    color: transparent;
+}
+
+
+section.cta .main-col button.btn-s {
+    background-color: var(--btn-primary);
+}
+
+/*CTA TABLET*/
+
+
+/*CTA MOBILE*/

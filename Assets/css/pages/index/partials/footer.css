@@ -1,0 +1,22 @@
+/*FOOTER DESKTOP*/
+footer {
+    width: 100%;
+    padding: 0 var(--container-desktop);
+}
+
+footer .container {
+    display: flex;
+    border-top: .1px solid var(--stroke);
+    border-bottom: .1px solid var(--stroke);
+}
+
+footer .container .col {
+    height: 50vh;
+    margin-bottom: 1rem;
+}
+
+
+/*FOOTER TABLET*/
+
+
+/*FOOTER MOBILE*/

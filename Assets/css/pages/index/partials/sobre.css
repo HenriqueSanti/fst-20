@@ -1,0 +1,30 @@
+/*SOBRE DESKTOP*/
+section.sobre .col {
+    position: relative;
+}
+
+section.sobre .col img {
+    max-width: 1150px;
+    position: absolute;
+    right: 0;
+}
+
+h2 {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+h2 span:first-child {
+    color: var(--text-gray);
+}
+
+h2 span:last-child {
+    color: var(--text-light);
+}
+
+
+/*SOBRE TABLET*/
+
+
+/*SOBRE MOBILE*/

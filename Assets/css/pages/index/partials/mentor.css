@@ -1,0 +1,56 @@
+/*MENTOR DESKTOP*/
+
+section#mentor {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.mentor-content {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.mentor-content .divisor {
+    border: .1px solid var(--stroke);
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.mentor-content .divisor .about {
+    grid-row: 3;
+    background-color: var(--bg-secodary);
+    padding: 1.2rem;
+    z-index: 10;
+}
+
+.mentor-content .divisor .about h4 {
+    color: var(--text-light);
+    font-size: 20px;
+}
+
+.mentor-img {
+    width: 700px;;
+    position: absolute;
+    top: 10%;
+    bottom: 0;
+    left: 25%;
+    right: 25%;
+}
+
+.mentor-name {
+    font-family: var(--font-secondary);
+    color: var(--text-light);
+    font-size: 80px;
+    width: 100%;
+    text-align: center;
+    padding: 1rem 40px;
+    grid-row: 2;
+}
+
+/*MENTOR MOBILE*/
+
+
+/*MENTOR MOBILE*/

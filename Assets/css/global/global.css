@@ -1,0 +1,60 @@
+/*- Globals-*/
+
+@font-face {
+    font-family: "KUBO";
+    src: url(/font/KUBO.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /*colors*/
+    --bg: #19181b;
+    --bg-secodary: #313131;
+    --text-light: #f8f5ff;
+    --text-gray: #afacb9;
+    --btn-primary: #6f44ff;
+    --btn-secondary: #44d2ff;
+    --stroke: #afacb94b;
+
+    /*font*/
+    --font-prymary: "Poppins", "sans-serif";
+    --font-secondary: "KUBO";
+
+    /*Spacing*/
+    --container-desktop: 100px;
+    --container-mobile: 28px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--bg);
+    color: var(--text-gray);
+    font-family: var(--font-prymary);
+}
+
+@keyframes appear {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+section {
+    display: flex;
+    padding: 0 var(--container-desktop);
+
+    animation: appear ease-in-out;
+    animation-timeline: view();
+    animation-range: entry 0% cover 50%;
+}
+

@@ -1,0 +1,22 @@
+/*STEP-BY-STEP DESKTOP*/
+.step-by-step {
+    background-color: var(--bg);
+    height: 100vh;
+
+}
+
+section.step-by-step .col {
+    position: relative;
+}
+
+section.step-by-step .col img {
+    max-width: 1000px;
+    position: absolute;
+    left: -20;
+}
+
+
+/*STEP-BY-STEP TABLET*/
+
+
+/*STEP-BY-STEP MOBILE*/

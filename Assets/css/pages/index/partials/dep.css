@@ -1,0 +1,71 @@
+/*DEPOIMENTOS DESKTOP*/
+section#depoimentos {
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 0 var(--container-desktop)
+}
+
+#depoimentos .slider {
+    display: flex;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+
+    
+}
+
+.slider::-webkit-scrollbar {
+    width: 0;
+}
+
+.slide-card {
+    display: flex;
+    border: .1px solid var(--stroke);
+}
+
+.slide-card .img-card {
+    width: 390px;
+    height: 744px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100%;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: end;
+
+    padding: 40px;
+
+    font-size: 1.7rem;
+    font-weight: 600;
+
+    border: .1px solid var(--stroke);
+}
+
+#slide-01 .img-card {
+    background-image: url(/public/Depoente\ 01.png);
+}
+
+#slide-02 .img-card {
+    background-image: url(/public/Depoente\ 02.png);
+}
+
+#slide-03 .img-card {
+    background-image: url(/public/Depoente\ 03.png);
+}
+
+.slide-card .dep-card {
+    width: 390px;
+    padding: 40px;
+}
+
+.slide-card .dep-card p {
+    font-size: 30px;
+    line-height: 1.1;
+    letter-spacing: normal;
+}
+
+/*DEPOIMENTOS TABLET*/
+
+/*DEPOIMENTOS MOBILE*/
+

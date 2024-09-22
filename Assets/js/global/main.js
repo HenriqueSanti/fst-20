@@ -19,7 +19,6 @@ window.onscroll = () => {
     })
 }
 
-
 //Accordions
 
 const lines = document.querySelectorAll('.line');

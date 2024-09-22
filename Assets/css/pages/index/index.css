@@ -1,0 +1,17 @@
+/*GLOBAL CSS*/
+@import url(/Assets/css/global/global.css);
+
+/*SECTIONS CSS*/
+@import url(/Assets/css/pages/index/partials/header.css);
+@import url(/Assets/css/pages/index/partials/hero.css);
+@import url(/Assets/css/pages/index/partials/marquee.css);
+@import url(/Assets/css/pages/index/partials/sobre.css);
+@import url(/Assets/css/pages/index/partials/step-by-step.css);
+@import url(/Assets/css/pages/index/partials/pq.css);
+@import url(/Assets/css/pages/index/partials/acesso.css);
+@import url(/Assets/css/pages/index/partials/grade.css);
+@import url(/Assets/css/pages/index/partials/dep.css);
+@import url(/Assets/css/pages/index/partials/mentor.css);
+@import url(/Assets/css/pages/index/partials/cta.css);
+@import url(/Assets/css/pages/index/partials/faq.css);
+@import url(/Assets/css/pages/index/partials/footer.css);

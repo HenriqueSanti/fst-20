@@ -1,0 +1,90 @@
+/* HERO DESKTOP */
+
+section.hero {
+    background-image: url(/public/image-bg-hero-01\ \(1\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.col {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    width: 100%;
+    flex-direction: column;
+    border-left: .1px solid var(--stroke);
+    border-right: .1px solid var(--stroke);
+
+    height: 100vh;
+
+}
+
+.headline {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    width: 100%;
+    flex-direction: column;
+    padding: 140px 40px 40px 40px;
+    gap: 20px;
+}
+
+.title {
+    font-family: var(--font-secondary);
+    font-size: 80px;
+}
+
+.title span:first-child {
+    color: var(--btn-primary);
+}
+
+.title span:last-child {
+    color: var(--btn-secondary);
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+h1 span:first-child {
+    color: var(--text-gray);
+}
+
+h1 span:last-child {
+    color: var(--text-light);
+}
+
+p {
+    font-size: 20px;
+}
+
+.main-col button.btn-s {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: transparent;
+    color: var(--text-light);
+    border: none;
+    border-top: .2px solid var(--stroke);
+    border-bottom: .2px solid var(--stroke);
+    padding: 30px;
+    font-family: var(--font-prymary);
+    font-size: 24px;
+    transition: all .3s ease-in-out;
+    
+    cursor: pointer;
+}
+
+.main-col button.btn-s:hover  {
+    background-color: #44d2ff;
+    color: var(--bg);
+}
+
+
+/* HERO TABLET */
+
+
+/* HERO MOBILE */

@@ -1,0 +1,57 @@
+/*Marquee DESKTOP*/
+.marquee {
+    width: 100%;
+    padding: 0 var(--container-desktop);
+}
+
+.text-wrapper {
+    border: .1px solid var(--stroke);
+
+    display: flex;
+    justify-content: flex-start;
+    overflow: hidden;
+}
+
+.text-wrapper h3 {
+    font-size: 98px;
+    font-family: var(--font-secondary);
+    text-transform: uppercase;
+    color: var(--text-gray);
+    white-space: nowrap;
+    padding: 1rem 3rem;
+    letter-spacing: 4px;
+    animation: move-rtl 10s linear infinite;
+}
+
+@keyframes move-rtl {
+    0% {
+        transform: translatex(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.text-wrapper img {
+    max-width: 150px;
+    border-radius: 150px;
+
+    white-space: nowrap;
+    padding: 3rem 3rem;
+    
+    animation: move-itl 2s linear infinite;
+}
+
+@keyframes move-itl {
+    0% {
+        transform: translatex(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+/*Marquee TABLET*/
+
+
+/*Marquee MOBILE*/
