@@ -13,7 +13,7 @@
 }
 
 .text-wrapper h3 {
-    font-size: 98px;
+    font-size: var(--text-xl);
     font-family: var(--font-secondary);
     text-transform: uppercase;
     color: var(--text-gray);
@@ -37,7 +37,7 @@
     border-radius: 150px;
 
     white-space: nowrap;
-    padding: 3rem 3rem;
+    padding: 3rem;
     
     animation: move-itl 2s linear infinite;
 }
@@ -52,6 +52,20 @@
 }
 
 /*Marquee TABLET*/
+@media screen and (max-width: 768px) {
+    .marquee {
+        padding: 0 var(--container-mobile);
+    }
 
+    .text-wrapper img {
+        max-width: 100px;
+        border-radius: 100px;
+    
+        white-space: nowrap;
+        padding: 2rem;
+        
+        animation: move-itl 2s linear infinite;
+    }
+}
 
 /*Marquee MOBILE*/

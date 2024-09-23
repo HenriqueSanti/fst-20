@@ -1,0 +1,25 @@
+:root {
+    /*colors*/
+    --bg: #19181b;
+    --bg-secodary: #313131;
+    --text-light: #f8f5ff;
+    --text-gray: #afacb9;
+    --btn-primary: #6f44ff;
+    --btn-secondary: #44d2ff;
+    --stroke: #afacb94b;
+
+    /*font-family*/
+    --font-prymary: "Poppins", "sans-serif";
+    --font-secondary: "KUBO";
+
+    /*font-size*/
+    --p: clamp(12px, 1vw, 20px);
+    --text-sm: clamp(22px, 3vw, 36px);
+    --text-md: clamp(28px, 3vw, 48px);
+    --text-lg: clamp(32px, 4vw, 50px);
+    --text-xl: clamp(50px, 5vw, 80px);
+
+    /*Spacing*/
+    --container-desktop: 100px;
+    --container-mobile: 28px;
+}

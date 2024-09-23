@@ -31,7 +31,7 @@ section.hero {
 
 .title {
     font-family: var(--font-secondary);
-    font-size: 80px;
+    font-size: var(--text-xl);
 }
 
 .title span:first-child {
@@ -40,12 +40,6 @@ section.hero {
 
 .title span:last-child {
     color: var(--btn-secondary);
-}
-
-h1 {
-    font-size: 50px;
-    font-weight: 600;
-    line-height: 1.2;
 }
 
 h1 span:first-child {
@@ -85,6 +79,20 @@ p {
 
 
 /* HERO TABLET */
+@media screen and (max-width: 768px) {
+    section.hero {
+        background-image: none;
+    }
 
+    section.hero .col:last-child {
+        display: none;
+    }
+}
 
 /* HERO MOBILE */
+@media screen  and (max-with:480px) {
+    section {
+        flex-direction: column;
+    }
+}
+

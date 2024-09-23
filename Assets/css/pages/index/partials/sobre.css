@@ -9,12 +9,6 @@ section.sobre .col img {
     right: 0;
 }
 
-h2 {
-    font-size: 48px;
-    font-weight: 600;
-    line-height: 1.2;
-}
-
 h2 span:first-child {
     color: var(--text-gray);
 }

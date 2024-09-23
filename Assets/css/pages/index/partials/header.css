@@ -58,7 +58,17 @@ a.btn:hover {
 }
 
 /*HEADER TABLET*/
+@media screen and (max-width:768px) {
+    header {
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+    }
 
+    nav {
+        display: none;
+    }
+}
 
 
 /*HEADER MOBILE*/
