@@ -43,15 +43,15 @@ section#depoimentos {
 }
 
 #slide-01 .img-card {
-    background-image: url(/public/Depoente\ 01.png);
+    background-image: url(../../../../../public/Depoente\ 01.png);
 }
 
 #slide-02 .img-card {
-    background-image: url(/public/Depoente\ 02.png);
+    background-image: url(../../../../../public/Depoente\ 02.png);
 }
 
 #slide-03 .img-card {
-    background-image: url(/public/Depoente\ 03.png);
+    background-image: url(../../../../../public/Depoente\ 03.png);
 }
 
 .slide-card .dep-card {
