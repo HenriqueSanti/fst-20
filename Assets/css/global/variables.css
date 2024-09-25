@@ -6,20 +6,27 @@
     --text-gray: #afacb9;
     --btn-primary: #6f44ff;
     --btn-secondary: #44d2ff;
-    --stroke: #afacb94b;
+    --stroke: #afacb928;
 
     /*font-family*/
     --font-prymary: "Poppins", "sans-serif";
     --font-secondary: "KUBO";
 
     /*font-size*/
-    --p: clamp(12px, 1vw, 20px);
+    --p: clamp(14px, 1vw, 20px);
     --text-sm: clamp(22px, 3vw, 36px);
     --text-md: clamp(28px, 3vw, 48px);
     --text-lg: clamp(32px, 4vw, 50px);
     --text-xl: clamp(50px, 5vw, 80px);
+    --text-btn: clamp(16px, 3vw, 24px);
+
+    /*Images-Width*/
+    --img-w1: clamp(700px, 70vw, 1150px);
+    --img-w2: clamp(700px, 60vw, 1000px);
+    --img-w3: clamp(400px, 50vw, 700px);
 
     /*Spacing*/
     --container-desktop: 100px;
-    --container-mobile: 28px;
+    --container-tablet: 28px;
+    --container-mobile: 18px;
 }

@@ -1,22 +1,27 @@
 /*STEP-BY-STEP DESKTOP*/
-.step-by-step {
-    background-color: var(--bg);
-    height: 100vh;
-
-}
 
 section.step-by-step .col {
     position: relative;
 }
 
 section.step-by-step .col img {
-    max-width: 1000px;
     position: absolute;
+    max-width: var(--img-w2);
     left: -20;
 }
 
 
 /*STEP-BY-STEP TABLET*/
+@media screen and (max-width: 768px) {
+    section.step-by-step {
+        flex-direction: column-reverse;
+    }
 
+    section.step-by-step .col img {
+        transform: translateX(-3.5%);
+        position: inherit;
+        max-width: 100%;
+    }
+}
 
 /*STEP-BY-STEP MOBILE*/

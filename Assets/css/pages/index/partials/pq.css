@@ -16,7 +16,7 @@ section.pq-fazer .col {
 
 .salary {
     width: 100%;
-    font-size: 24px;
+    font-size: var(--text-btn);
     font-weight: 600;
     display: flex;
     flex-direction: column;
@@ -35,7 +35,7 @@ section.pq-fazer .col {
 
 .salary .bar-bg .bar {
     padding: 30px 20px;
-    background: linear-gradient(90deg, #988eb9,#6092a1);;
+    background: linear-gradient(90deg, #988eb9,#6092a1);
     color: var(--text-light);
 }
 
@@ -44,7 +44,7 @@ section.pq-fazer .col {
 }
 
 .col-2 .salary .bar-bg .bar {
-    width: 60%;
+    width: 55%;
 }
 
 .col-3 .salary{
@@ -52,7 +52,7 @@ section.pq-fazer .col {
 }
 
 .col-3 .salary .bar-bg .bar {
-    width: 75%;
+    width: 72%;
 }
 
 .col-4 .salary{
@@ -64,6 +64,62 @@ section.pq-fazer .col {
 }
 
 /*PQ TABLET*/
+@media screen and (max-width: 768px) {
+    section.pq-fazer {
+        grid-template-columns: 1fr;
+    }
 
+    section.pq-fazer .col {
+        grid-template-rows: 1fr;
+        height: 100%;
+    }
+
+    section.pq-fazer .col-1 {
+        grid-column: 1;
+    }
+    section.pq-fazer .col-2 {
+        grid-column: 1;
+    }
+    section.pq-fazer .col-3 {
+        grid-column: 1;
+    }
+    section.pq-fazer .col-4 {
+        grid-column: 1;
+    }
+
+    .salary {
+        padding: 20px 20px;
+    }
+
+    .salary .seniority {
+        padding: 0;
+    }
+
+    .salary .bar-bg .bar {
+        padding: 20px 20px;
+    }
+
+    .col-2 .salary{
+        grid-row: 1;
+    }
+    
+    
+    .col-3 .salary{
+        grid-row: 1;
+    }
+    
+    .col-4 .salary{
+        grid-row: 1;
+    }
+}
 
 /*PQ MOBILE*/
+@media screen and (max-width: 480px) {
+    .salary {
+        padding: 20px 0;
+    }
+
+    .salary .seniority {
+        padding: 0 20px;
+    }
+}

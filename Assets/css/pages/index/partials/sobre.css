@@ -4,7 +4,7 @@ section.sobre .col {
 }
 
 section.sobre .col img {
-    max-width: 1150px;
+    max-width: var(--img-w1);
     position: absolute;
     right: 0;
 }
@@ -19,6 +19,13 @@ h2 span:last-child {
 
 
 /*SOBRE TABLET*/
-
+@media screen and (max-width: 768px) {
+    
+    section.sobre .col img {
+        max-width: 100%;
+        position:inherit;
+        transform: translateX(-8%);
+    }
+}
 
 /*SOBRE MOBILE*/

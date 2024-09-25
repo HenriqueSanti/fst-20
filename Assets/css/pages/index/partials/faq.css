@@ -21,6 +21,24 @@ section.faq .cordeon .cordeon-header .number {
 }
 
 /*FAQ TABLET*/
-
+@media screen and (max-width: 768px) {
+    section.faq {
+        padding: 3rem var(--container-tablet);
+    }
+    
+    section.faq .cordeon .cordeon-header {
+        font-size: var(--text-btn);
+        padding: 2rem;
+    }
+    
+    section.faq .cordeon .cordeon-header .number {
+        margin-right: 1rem;
+    }
+}
 
 /*FAQ MOBILE*/
+@media screen and (max-width: 768px) {
+    section.faq {
+        padding: 3rem var(--container-mobile);
+    }
+}

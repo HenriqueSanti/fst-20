@@ -36,7 +36,7 @@ section#depoimentos {
 
     padding: 40px;
 
-    font-size: 1.7rem;
+    font-size: var(--text-btn);
     font-weight: 600;
 
     border: .1px solid var(--stroke);
@@ -60,12 +60,40 @@ section#depoimentos {
 }
 
 .slide-card .dep-card p {
-    font-size: 30px;
+    font-size: var(--text-sm);
     line-height: 1.1;
     letter-spacing: normal;
 }
 
+/*DEPOIMENTOS DESKTOP HD*/
+@media (max-width: 1440px) {
+    section#depoimentos {
+        padding: 0 0 0 var(--container-tablet)
+    }
+}
+
 /*DEPOIMENTOS TABLET*/
+@media (max-width: 768px) {
+    section#depoimentos {
+        padding: 0 0 0 var(--container-tablet)
+    }
 
+    .slide-card .img-card {
+        width: 50%;
+        height: 470px;
+        background-size: cover;
+        background-position: top;
+    }
+
+    .slide-card .dep-card {
+        width: 390px;
+        padding: 20px;
+    }
+}
 /*DEPOIMENTOS MOBILE*/
+@media (max-width: 768px) {
+    section#depoimentos {
+        padding: 0 0 0 var(--container-mobile)
+    }
 
+}

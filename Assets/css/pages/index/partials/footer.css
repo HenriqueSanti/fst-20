@@ -8,15 +8,42 @@ footer .container {
     display: flex;
     border-top: .1px solid var(--stroke);
     border-bottom: .1px solid var(--stroke);
+    margin-bottom: 1rem;
+    margin-bottom: 1rem;
 }
 
 footer .container .col {
     height: 50vh;
-    margin-bottom: 1rem;
+    margin-bottom: 0;
 }
 
+/*FOOTER desktop hd*/
+@media  (max-width: 1440px) {
+    footer {
+        padding: 0 var(--container-tablet);
+    }
+}
 
 /*FOOTER TABLET*/
+@media  (max-width: 768px) {
+    footer {
+        padding: 0 var(--container-tablet);
+    }
 
+    footer .container {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    footer .container .col {
+        height: 100%;
+        margin-bottom: 0;
+    }
+}
 
 /*FOOTER MOBILE*/
+@media  (max-width: 768px) {
+    footer {
+        padding: 0 var(--container-mobile);
+    }
+}

@@ -1,6 +1,8 @@
 /*CTA DESKTOP*/
 section.cta {
-    background-image: url(public/Background\ Turbo\ 2.0\ \(1\).png);
+    background-image: url(/public/Background\ Turbo\ 2.0\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
@@ -8,8 +10,8 @@ section.cta {
     font-family: var(--font-secondary);
     font-size: 140px;
     color: var(--text-light);
+    padding: 1rem;
 }
-
 .cta .col {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
@@ -39,6 +41,10 @@ section.cta .headline {
     flex-direction: column;
     padding: 60px 40px 40px 40px;
     gap: 20px;
+}
+
+.cta .headline .title {
+    display: none;
 }
 
 section.cta .main-col {
@@ -96,7 +102,149 @@ section.cta .main-col button.btn-s {
     background-color: var(--btn-primary);
 }
 
-/*CTA TABLET*/
+/*CTA DESKTOP HD*/
+@media  (max-width: 1440px) {
+    .full, .stack, .turbo {
+        font-size: var(--text-xl);
+    }
+    section.cta .main-col .headline img {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
 
+    section.cta .main-col .headline {
+        padding: var(--container-mobile);
+    }
+
+    section.cta .main-col .headline .price {
+        width: 100%;
+        padding: var(--container-mobile);
+    }
+    
+    section.cta .main-col .headline .price h2 {
+        color: var(--text-light);
+        font-size: var(--text-sm);
+    }
+    
+    section.cta .main-col .headline .price h2 span {
+        color: rgb(226, 250, 74);
+        font-size: var(--text-lg);
+    }
+    
+    
+    section.cta .main-col .headline ul li {
+        font-size: var(--p);
+    }
+    
+    section.cta .main-col .headline ul li span {
+        
+        padding: 0 9px;
+    }
+}
+
+/*CTA TABLET*/
+@media (max-width: 768px) {
+    section.cta {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .cta .col-ft {
+        grid-column: 1;
+    }
+
+    .cta .col-s {
+        grid-column: 2;
+    }
+
+    .cta .main-col {
+        grid-column: 1/3;
+        display: flex;
+    }
+
+    .full, .stack, .turbo {
+        font-size: 80px;
+    }
+    
+    section.cta .col:nth-child(2) {
+        display: grid;
+    }
+}
 
 /*CTA MOBILE*/
+@media (max-width:480px) {
+    section.cta {
+        grid-template-columns: 1fr;
+    }
+
+    .cta .col {
+        grid-template-rows: 1fr;
+    }
+
+    .cta .col-ft {
+        grid-column: 1;
+    }
+
+    .cta .col-s {
+        grid-column: 1;
+    }
+
+    .cta .main-col {
+        grid-column: 1/2;
+    }
+
+    .full, .stack, .turbo {
+        display: none;
+    }
+
+    section.cta .main-col .headline {
+        padding: 0 var(--container mobile);
+        gap: .5rem;
+    }
+
+    .cta .headline .title {
+        display: block;
+    }
+
+    section.cta .main-col .headline img {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    section.cta .main-col .headline {
+        padding: var(--container-mobile);
+    }
+
+    section.cta .main-col .headline .price {
+        width: 100%;
+        padding: var(--container-mobile);
+    }
+    
+    section.cta .main-col .headline .price p {
+        color: var(--text-gray);
+    }
+    
+    section.cta .main-col .headline .price p span {
+        text-decoration: line-through;
+    }
+    
+    section.cta .main-col .headline .price h2 {
+        color: var(--text-light);
+        font-size: var(--text-sm);
+    }
+    
+    section.cta .main-col .headline .price h2 span {
+        color: rgb(226, 250, 74);
+        font-size: var(--text-lg);
+    }
+    
+    
+    section.cta .main-col .headline ul li {
+        font-size: var(--p);
+    }
+    
+    section.cta .main-col .headline ul li span {
+        
+        padding: 0 9px;
+    }
+}

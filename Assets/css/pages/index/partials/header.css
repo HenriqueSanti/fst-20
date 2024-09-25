@@ -20,8 +20,15 @@ header {
 }
 
 .logo {
-    font-size: 36px;
-    font-weight: 600;
+    font-size: var(--text-sm);
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+
+.logo img {
+    width: 100%;;
 }
 
 nav ul {
@@ -38,7 +45,7 @@ nav ul li a {
     border-left: .2px solid var(--stroke);
     border-right: .2px solid var(--stroke);
 
-    font-size: 24px;
+    font-size: var(--text-btn);
 
     transition: .3s ease-in-out;
 
@@ -57,16 +64,73 @@ a.btn:hover {
     background-color: var(--btn-secondary);
 }
 
+a.wpp-btn {
+    
+    text-decoration: none;
+    color: var(--text-gray);
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 3rem;
+    
+    transition: all .4s ease-out;
+    padding: .8rem;
+}
+
+a.wpp-btn img {
+    width: 2.5rem;
+    transition: all .4s ease-out;
+}
+
+a.wpp-btn .call {
+    display: none;
+    font-size: var(--text-btn);
+    transition: all .4s ease-out;
+    margin-left: 1rem;
+}
+
+/*HEADER DESKTOP HD*/
+@media screen and (max-width:1440px) {
+    nav ul li a {
+        font-size: var(--p);
+    }
+}
+
 /*HEADER TABLET*/
 @media screen and (max-width:768px) {
     header {
-        justify-content: center;
-        margin: 0;
-        padding: 0;
+        padding: .5rem var(--container-tablet);
+        
+    }
+
+    .logo img {
+        width: 70%;;
     }
 
     nav {
         display: none;
+    }
+
+    a.wpp-btn {
+        position: relative;
+        border: 2px solid var(--stroke);
+        bottom: 0;
+        right: 0;
+        padding: .6rem 1rem;
+    }
+    
+    a.wpp-btn img {
+        width: 1.5rem;
+    }
+    
+    a.wpp-btn .call {
+        display: block;
+        font-size: var(--p);
+        transition: all .4s ease-out;
+        margin-left: 1rem;
     }
 }
 
