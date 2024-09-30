@@ -1,23 +1,11 @@
 /*DEPOIMENTOS DESKTOP*/
-section#depoimentos {
+section.quem-indica {
     display: flex;
     flex-direction: column;
     padding: 0 0 0 var(--container-desktop)
 }
 
-.arrow-right {
-    display: flex;
-    justify-content: end;
-    align-items: center;
-    width: 100%;
-    padding: 1rem var(--container-desktop);
-}
-
-.arrow-right img {
-    max-width: var(--text-lg);
-}
-
-#depoimentos .slider {
+.quem-indica .slider {
     display: flex;
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
@@ -27,20 +15,20 @@ section#depoimentos {
 
 }
 
-.slider::-webkit-scrollbar {
+section.quem-indica .slider::-webkit-scrollbar {
     width: 0;
 }
 
-.slide-card {
+section.quem-indica .slide-card {
     display: flex;
     border: .1px solid var(--stroke);
 
     scroll-snap-align: start;
 }
 
-.slide-card .img-card {
+section.quem-indica .slide-card .img-card {
     width: 390px;
-    height: 766px;
+    height: 744px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 100%;
@@ -57,24 +45,39 @@ section#depoimentos {
     border: .1px solid var(--stroke);
 }
 
-#slide-01 .img-card {
-    background-image: url(../../../../../public/deps/Depoente\ 5.png);
+section.quem-indica #slide-01 .img-card {
+    background-image: url(../../../../../public/Tulio\ Faria\ Normal.png);
+    transition: all .5s ease-in-out;
 }
 
-#slide-02 .img-card {
-    background-image: url(../../../../../public/deps/Depoente\ 11.png);
+section.quem-indica #slide-01:hover .img-card {
+    background-image: url(../../../../../public/Tulio\ Faria\ Active.png);
 }
 
-#slide-03 .img-card {
-    background-image: url(../../../../../public/deps/Depoente\ 6.png);
+section.quem-indica #slide-02 .img-card {
+    background-image: url(../../../../../public/Rodrigo\ Branas\ Normal.png);
+    transition: all .5s ease-in-out;
 }
 
-.slide-card .dep-card {
+section.quem-indica #slide-02:hover .img-card {
+    background-image: url(../../../../../public/Rodrigo\ Branas\ Active.png);
+}
+
+section.quem-indica #slide-03 .img-card {
+    background-image: url(../../../../../public/UniFap\ Normal.png);
+    transition: all .5s ease-in-out;
+}
+
+section.quem-indica #slide-03:hover .img-card {
+    background-image: url(../../../../../public/UniFap\ Active.png);
+}
+
+section.quem-indica .slide-card .dep-card {
     width: 390px;
     padding: 40px;
 }
 
-.slide-card .dep-card p {
+section.quem-indica .slide-card .dep-card p {
     font-size: var(--text-sm);
     line-height: 1.1;
     letter-spacing: normal;
@@ -82,45 +85,33 @@ section#depoimentos {
 
 /*DEPOIMENTOS DESKTOP HD*/
 @media (max-width: 1440px) {
-    section#depoimentos {
+    section.quem-indica {
         padding: 0 0 0 var(--container-tablet)
-    }
-    .arrow-right {
-        padding: 1rem var(--container-tablet);
     }
 }
 
 /*DEPOIMENTOS TABLET*/
 @media (max-width: 768px) {
-    section#depoimentos {
+    section.quem-indica {
         padding: 0 0 0 var(--container-tablet)
     }
 
-    .slide-card .img-card {
+    section.quem-indica .slide-card .img-card {
         width: 50%;
         height: 470px;
         background-size: cover;
         background-position: top;
     }
 
-    .slide-card .dep-card {
+    section.quem-indica .slide-card .dep-card {
         width: 390px;
         padding: 20px;
     }
 }
 /*DEPOIMENTOS MOBILE*/
 @media (max-width: 480px) {
-    section#depoimentos {
+    section.quem-indica {
         padding: 0 0 0 var(--container-mobile)
-    }
-
-    .arrow-right {
-        padding: 1rem var(--container-mobile);
-    }
-
-    section#depoimentos .headline {
-        padding: 80px 20px 20px 20px;
-        gap: 20px;
     }
 
 }

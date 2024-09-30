@@ -32,3 +32,13 @@ lines.forEach(line => {
         header.classList.toggle('active')
     })
 })
+
+//slider
+
+function next() {
+    const slider = document.getElementsByClassName("slider");
+    slider.scrollIntoView({
+        behavior: 'smooth',
+        inline: 'end'
+    })
+}

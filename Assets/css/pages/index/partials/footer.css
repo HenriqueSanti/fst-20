@@ -17,6 +17,51 @@ footer .container .col {
     margin-bottom: 0;
 }
 
+footer h4 {
+    color: var(--text-light);
+}
+
+footer .reflexao, footer .blog, footer .social, footer .contato, .cnpj {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+footer .reflexao .proverbio {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 1rem;
+}
+
+
+footer .social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+footer .blog a, .contato a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+
+    text-decoration: none;
+    color: var(--text-gray);
+}
+
+.social a img {
+    max-width: var(--text-sm);
+}
+
+.blog a img, .contato a img {
+    max-width: var(--p);
+}
+
 /*FOOTER desktop hd*/
 @media  (max-width: 1440px) {
     footer {
