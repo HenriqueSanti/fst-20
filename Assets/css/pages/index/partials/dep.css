@@ -57,18 +57,6 @@ section#depoimentos {
     border: .1px solid var(--stroke);
 }
 
-#slide-01 .img-card {
-    background-image: url(../../../../../public/deps/Depoente\ 5.png);
-}
-
-#slide-02 .img-card {
-    background-image: url(../../../../../public/deps/Depoente\ 11.png);
-}
-
-#slide-03 .img-card {
-    background-image: url(../../../../../public/deps/Depoente\ 6.png);
-}
-
 .slide-card .dep-card {
     width: 390px;
     padding: 40px;
