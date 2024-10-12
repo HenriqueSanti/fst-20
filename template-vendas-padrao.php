@@ -78,7 +78,16 @@ get_header();
         <div class="col"></div>
         <div class="col">
             <div class="video">
-                <video autoplay muted plays-inline loop src="./public/video-test.mp4" class="clip" type="mp4"></video>
+                <iframe
+                    src="https://player.cloudinary.com/embed/?public_id=Curso_Full_Stack_Turbo_por_DENTRO_-_Saiba_todos_os_detalhes_eqhmvv&cloud_name=dfjajuiwn&player[autoplay]=true&player[muted]=true&player[loop]=true&player[showLogo]=false&source[poster]=https%3A%2F%2Fres.cloudinary.com%2Fdfjajuiwn%2Fimage%2Fupload%2Fimage-bg-hero-01-_1__u65fm9.jpg"
+                    width="640"
+                    height="360"
+                    allow="autoplay; fullscreen; encrypted-media; picture-in-picture"
+                    undefined
+                    allowfullscreen
+                    frameborder="0"
+                >
+                </iframe>
             </div>
         </div>
     </section>
@@ -644,9 +653,11 @@ get_header();
                 <img src="https://res.cloudinary.com/dfjajuiwn/image/upload/v1728603069/logos-cart%C3%B5es-_1__dd854b.webp" alt="cartões de crédito">
             </div>
 
-            <button class="btn-s">
-                Inscreva-se Agora
-            </button>
+            <a href="https://pay.hotmart.com/B89287898Q?checkoutMode=10" target="blank">
+                <button class="btn-s">
+                    Inscreva-se Agora
+                </button>
+            </a>
         </div>
     </section>
 

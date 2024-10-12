@@ -42,3 +42,19 @@ function next() {
         inline: 'end'
     })
 }
+
+//Video Player
+const player = cloudinary.videoPlayer('player', {
+    cloudName: 'dfjajuiwn',
+    autoplay: true,
+    muted: true,
+    loop: true,
+    showLogo: false,
+    colors: {
+      accent: '#44D2FF'
+    }
+  });
+  
+  player.source('Curso_Full_Stack_Turbo_por_DENTRO_-_Saiba_todos_os_detalhes_eqhmvv', {
+    poster: 'https://res.cloudinary.com/dfjajuiwn/image/upload/image-bg-hero-01-_1__u65fm9.jpg'
+});

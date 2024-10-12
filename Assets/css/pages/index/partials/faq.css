@@ -20,6 +20,10 @@ section.faq .cordeon .cordeon-header .number {
     margin-right: 1rem;
 }
 
+section.faq .cordeon .cordeon-body .text-block {
+    width: 100%;
+}
+
 /*FAQ TABLET*/
 @media screen and (max-width: 768px) {
     section.faq {

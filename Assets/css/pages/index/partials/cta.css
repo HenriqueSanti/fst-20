@@ -102,6 +102,11 @@ section.cta .main-col .headline img {
     margin-bottom: .5rem;
 }
 
+section.cta .main-col a {
+    text-decoration: none;
+    
+}
+
 
 section.cta .main-col button.btn-s {
     background-color: var(--btn-primary);

@@ -56,23 +56,29 @@ section.hero .col:last-child {
     justify-content: end;
     align-items: end;
     padding-right: 1rem;
+    position: relative;
 }
 
 .video {
-    width: 400px;
+    position: absolute;
+    width: 500px;
+    height: 280px;
     cursor: pointer;
     transition: all .4s ease-in-out;
     background: rgba(43, 43, 43, 0.128);
+    bottom: 4rem;
 }
 
-video {
+iframe {
     width: 100%;
+    height: 100%;
     border-radius: 1rem;
     z-index: -1;
 }
 
 .video:hover {
-    width: 500px;
+    width: 854px;
+    height: 480px;
 }
 
 /* HERO TABLET */
@@ -89,16 +95,21 @@ video {
     }
 
     .video {
+        position: inherit;
         width: 100%;
         border-top: .2px solid var(--stroke);
         padding: 1rem;
         background: none;
-        
+        bottom: 0;
     }
 
-    video {
+    iframe {
         border-radius: 0;
     } 
+
+    .video:hover {
+        width: 400px;
+    }
 }
 
 /* HERO MOBILE */
