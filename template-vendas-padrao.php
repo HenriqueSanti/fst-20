@@ -41,7 +41,7 @@ get_header();
             </ul>
         </nav>
 
-        <a href="https://www.whatsapp.com/" target="_blank" class="wpp-btn">
+        <a href="https://api.whatsapp.com/send/?phone=5588999073834&text=Estou+vindo+do+site%21&type=phone_number&app_absent=0" target="_blank" class="wpp-btn">
             <img src="https://res.cloudinary.com/dfjajuiwn/image/upload/v1728735349/toppng.com-logo-whatsapp-png-blanco-whatsapp-icon-grey-543x577_dgjyw8.webp" alt="WhatsApp Icon">
 
             <span class="call">
@@ -79,7 +79,7 @@ get_header();
         <div class="col">
             <div class="video">
                 <iframe
-                    src="https://player.cloudinary.com/embed/?public_id=Curso_Full_Stack_Turbo_por_DENTRO_-_Saiba_todos_os_detalhes_eqhmvv&cloud_name=dfjajuiwn&player[autoplay]=true&player[muted]=true&player[loop]=true&player[showLogo]=false&source[poster]=https%3A%2F%2Fres.cloudinary.com%2Fdfjajuiwn%2Fimage%2Fupload%2Fimage-bg-hero-01-_1__u65fm9.jpg"
+                    src="https://player.cloudinary.com/embed/?public_id=Curso_Full_Stack_Turbo_por_DENTRO_-_Saiba_todos_os_detalhes_eqhmvv&cloud_name=dfjajuiwn&player[showLogo]=false&source[poster]=https%3A%2F%2Fres.cloudinary.com%2Fdfjajuiwn%2Fimage%2Fupload%2Fimage-bg-hero-01-_1__u65fm9.jpg&source[info][title]=Full%20Stack%20Turbo%20por%20dentro&source[info][subtitle]=Entenda%20com%20ofunciona%20o%20curso%20Full%20Stack%20Turbo%20por%20dentro"
                     width="640"
                     height="360"
                     allow="autoplay; fullscreen; encrypted-media; picture-in-picture"

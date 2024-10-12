@@ -13,9 +13,11 @@
     
                 </div>
     
-                <button class="btn-s">
-                    Chama no WhatsApp
-                </button>
+                <a href="https://api.whatsapp.com/send/?phone=5588999073834&text=Estou+vindo+do+site%21&type=phone_number&app_absent=0" target="blank">
+                    <button class="btn-s">
+                        Chama no WhatsApp
+                    </button>
+                </a>
             </div>
     
             <div class="col">

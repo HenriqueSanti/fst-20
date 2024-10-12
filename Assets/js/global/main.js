@@ -46,15 +46,13 @@ function next() {
 //Video Player
 const player = cloudinary.videoPlayer('player', {
     cloudName: 'dfjajuiwn',
-    autoplay: true,
-    muted: true,
-    loop: true,
-    showLogo: false,
-    colors: {
-      accent: '#44D2FF'
-    }
+    showLogo: false
   });
   
   player.source('Curso_Full_Stack_Turbo_por_DENTRO_-_Saiba_todos_os_detalhes_eqhmvv', {
-    poster: 'https://res.cloudinary.com/dfjajuiwn/image/upload/image-bg-hero-01-_1__u65fm9.jpg'
-});
+    poster: 'https://res.cloudinary.com/dfjajuiwn/image/upload/image-bg-hero-01-_1__u65fm9.jpg',
+    info: {
+      title: 'Full Stack Turbo por dentro',
+      subtitle: 'Entenda com ofunciona o curso Full Stack Turbo por dentro'
+    }
+  });
