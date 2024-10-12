@@ -46,30 +46,30 @@ section.quem-indica .slide-card .img-card {
 }
 
 section.quem-indica #slide-01 .img-card {
-    background-image: url(../../../../../public/Tulio\ Faria\ Normal.png);
+    background-image: url(https://res.cloudinary.com/dfjajuiwn/image/upload/v1728599600/Tulio-Faria-Normal_y3oh22.avif);
     transition: all .5s ease-in-out;
 }
 
 section.quem-indica #slide-01:hover .img-card {
-    background-image: url(../../../../../public/Tulio\ Faria\ Active.png);
+    background-image: url(https://res.cloudinary.com/dfjajuiwn/image/upload/v1728599599/Tulio-Faria-Active_wyzaix.avif);
 }
 
 section.quem-indica #slide-02 .img-card {
-    background-image: url(../../../../../public/Rodrigo\ Branas\ Normal.png);
+    background-image: url(https://res.cloudinary.com/dfjajuiwn/image/upload/v1728599598/Rodrigo-Branas-Normal_wn3rw1.avif);
     transition: all .5s ease-in-out;
 }
 
 section.quem-indica #slide-02:hover .img-card {
-    background-image: url(../../../../../public/Rodrigo\ Branas\ Active.png);
+    background-image: url(https://res.cloudinary.com/dfjajuiwn/image/upload/v1728599597/Rodrigo-Branas-Active_q1hxwq.avif);
 }
 
 section.quem-indica #slide-03 .img-card {
-    background-image: url(../../../../../public/UniFap\ Normal.png);
+    background-image: url(https://res.cloudinary.com/dfjajuiwn/image/upload/v1728599597/UniFap-Normal_tgrzyt.avif);
     transition: all .5s ease-in-out;
 }
 
 section.quem-indica #slide-03:hover .img-card {
-    background-image: url(../../../../../public/UniFap\ Active.png);
+    background-image: url(https://res.cloudinary.com/dfjajuiwn/image/upload/v1728599599/UniFap-Active_bzxydh.avif);
 }
 
 section.quem-indica .slide-card .dep-card {

@@ -88,6 +88,7 @@ section.grade {
 .cordeon-body .images-block img {
     border-radius: 100%;
     max-width: 100px;
+    max-height: 100px;
     z-index: 3;
 }
 

@@ -1,6 +1,7 @@
 /* HERO DESKTOP */
 
 section.hero {
+    background-image:url('https://res.cloudinary.com/dfjajuiwn/image/upload/v1728605280/image-bg-hero-01-_1__u65fm9.avif');
     background-size: cover;
     background-repeat: no-repeat;
 }

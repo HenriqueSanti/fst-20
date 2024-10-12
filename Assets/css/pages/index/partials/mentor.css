@@ -41,6 +41,12 @@ section#mentor {
     right: 25%;
 }
 
+.mentor-img img {
+    width: 100%;
+    position: relative;
+    bottom: -150px;
+}
+
 .mentor-name {
     font-family: var(--font-secondary);
     color: var(--text-light);

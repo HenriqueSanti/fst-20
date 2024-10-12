@@ -1,6 +1,6 @@
 /*CTA DESKTOP*/
 section.cta {
-    background-image: url(../../../../../public/Background\ Turbo\ 2.0\ \(1\).png);
+    background-image: url(https://res.cloudinary.com/dfjajuiwn/image/upload/v1728599574/Background-Turbo-2.0-_1__akdgoa.avif);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -84,7 +84,7 @@ section.cta .main-col .headline ul {
 }
 
 section.cta .main-col .headline ul li {
-    margin: 20px 0;
+    margin: 14px 0;
     font-size: 20px;
 }
 
@@ -97,9 +97,18 @@ section.cta .main-col .headline ul li span {
     color: transparent;
 }
 
+section.cta .main-col .headline img {
+    width: 100%;
+    margin-bottom: .5rem;
+}
+
 
 section.cta .main-col button.btn-s {
     background-color: var(--btn-primary);
+}
+
+section.cta .main-col button.btn-s:hover {
+    background-color: var(--btn-secondary);
 }
 
 /*CTA DESKTOP HD*/

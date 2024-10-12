@@ -37,16 +37,16 @@
 
                     <div class="social-links">
                         <a href="https://www.youtube.com/@tipscode" target="_blank">
-                            <img class="s-yt" src="./public/youtube-168-svgrepo-com.svg" alt="link youtube tipscode">
+                            <img class="s-yt" src="https://res.cloudinary.com/dfjajuiwn/image/upload/v1728690522/youtube-168-svgrepo-com_dnc8bu.webp" alt="link youtube tipscode">
                         </a>
                         <a href="https://www.instagram.com/tipscodeoficial" target="_blank">
-                            <img class="s-gr" src="./public/instagram-logo-fill-svgrepo-com.svg" alt="link instagram tipscode">
+                            <img class="s-gr" src="https://res.cloudinary.com/dfjajuiwn/image/upload/v1728690516/instagram-logo-fill-svgrepo-com_orihou.webp" alt="link instagram tipscode">
                         </a>
                         <a href="https://www.tiktok.com/@tipscodeoficial" target="_blank">
-                            <img class="s-tt" src="./public/tiktok-svgrepo-com.svg" alt="link tiktok tipscode">
+                            <img class="s-tt" src="https://res.cloudinary.com/dfjajuiwn/image/upload/v1728690520/tiktok-svgrepo-com_vnojdm.webp" alt="link tiktok tipscode">
                         </a>
                         <a href="https://www.linkedin.com/company/tipscode/" target="_blank">
-                            <img class="s-in" src="./public/linkedin-161-svgrepo-com.svg" alt="link linkedin tipscode">
+                            <img class="s-in" src="https://res.cloudinary.com/dfjajuiwn/image/upload/v1728690517/linkedin-161-svgrepo-com_dfvb71.webp" alt="link linkedin tipscode">
                         </a>
                     </div>
                 </div>
@@ -54,14 +54,14 @@
                 <div class="blog">
                     <h4>Notícias</h4>
                     <a href="https://tipscode.com.br/artigos">
-                        <img src="./public/blog-svgrepo-com.svg" alt="blog tipscode icon">
+                        <img src="https://res.cloudinary.com/dfjajuiwn/image/upload/v1728690515/blog-svgrepo-com_psqhhz.webp" alt="blog tipscode icon">
                         <span>Blog TipsCode</span>
                     </a>
                 </div>
                 <div class="contato">
                     <h4>Contato</h4>
                     <a href="mailto:suporte@tipscode.com.br">
-                        <img src="./public/email-svgrepo-com.svg" alt="blog tipscode icon">
+                        <img src="https://res.cloudinary.com/dfjajuiwn/image/upload/v1728690515/email-svgrepo-com_kqfks9.webp" alt="blog tipscode icon">
                         <span>suporte@tipscode.com.br</span>
                     </a>
                 </div>
