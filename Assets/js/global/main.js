@@ -34,13 +34,31 @@ lines.forEach(line => {
 })
 
 //slider
+const preview = document.getElementById("preview");
+const next = document.getElementById("next");
 
-function next() {
-    const slider = document.getElementsByClassName("slider");
-    slider.scrollIntoView({
+preview.addEventListener("click", previewSlider);
+next.addEventListener("click", nextSlider);
+
+function previewSlider() {
+    const element = document.getElementById('slide-01');
+    
+    element.scrollIntoView({
         behavior: 'smooth',
-        inline: 'end'
-    })
+        inline: 'nearest',
+        block: 'nearest'
+        
+    });
+}
+
+function nextSlider() {
+    const element = document.getElementById('slide-05');
+    element.scrollIntoView({
+        behavior: 'smooth',
+        inline: 'nearest',
+        block: 'nearest'
+        
+    });
 }
 
 //Video Player

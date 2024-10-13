@@ -61,7 +61,7 @@ get_header();
                 </div>
 
                 <h1>
-                    <span>SUPERE LIMITES E  ACELERENA PROGRAMAÇÃO</span>
+                    <span>SUPERE LIMITES E ACELERE NA PROGRAMAÇÃO</span>
                     <span>COM O FULL STACK TURBO</span>
                 </h1>
 
@@ -332,7 +332,7 @@ get_header();
             <div class="line">
                 <div class="cordeon-header">
                     <div class="number">2</div>
-                    <div class="section-name">Web design</div>
+                    <div class="section-name">Web Design</div>
                 </div>
 
                 <div class="cordeon-body">
@@ -464,7 +464,10 @@ get_header();
             </h2>
         </div>
         <div class="arrow-right">
-            <img src="https://res.cloudinary.com/dfjajuiwn/image/upload/v1728633270/arrow-right-svgrepo-com_tt7dt7.svg" alt="arrow right">
+            <!--preview-->
+            <img src="https://res.cloudinary.com/dfjajuiwn/image/upload/v1728633270/arrow-right-svgrepo-com_tt7dt7.svg" alt="arrow right" id="preview">
+            <!--next-->
+            <img src="https://res.cloudinary.com/dfjajuiwn/image/upload/v1728633270/arrow-right-svgrepo-com_tt7dt7.svg" alt="arrow right" id="next">
         </div>
         <div class="slider">
             <div class="slide-card" id="slide-01">
