@@ -303,7 +303,7 @@ get_header();
     <section class="grade" id="grade">
         <div class="headline">
             <h2>
-                <span>A GRADE MAIS CURRICULAR</span>
+                <span>A GRADE CURRICULAR MAIS</span>
                 <br>
                 <span>COMPLETA DO MERCADO</span>
             </h2>
@@ -675,11 +675,14 @@ get_header();
         </div>
 
         <div class="arrow-right">
-            <img src="https://res.cloudinary.com/dfjajuiwn/image/upload/v1728633270/arrow-right-svgrepo-com_tt7dt7.svg" alt="">
+            <!--preview-->
+            <img src="https://res.cloudinary.com/dfjajuiwn/image/upload/v1728633270/arrow-right-svgrepo-com_tt7dt7.svg" alt="arrow right" id="prev-ind" onclick="prevSliderInd()">
+            <!--next-->
+            <img src="https://res.cloudinary.com/dfjajuiwn/image/upload/v1728633270/arrow-right-svgrepo-com_tt7dt7.svg" alt="arrow right" id="next-ind" onclick="nextSliderInd()">
         </div>
         
         <div class="slider">
-            <div class="slide-card" id="slide-01">
+            <div class="slide-card" id="slide-001">
                 <div class="img-card">
                     <div class="alu-name">
                         Tulio Faria
@@ -705,7 +708,7 @@ get_header();
                     </p>
                 </div>
             </div>
-            <div class="slide-card" id="slide-03">
+            <div class="slide-card" id="slide-003">
                 <div class="img-card">
                     <div class="alu-name">
                         UniFap

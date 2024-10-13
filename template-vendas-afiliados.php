@@ -303,7 +303,7 @@ get_header();
     <section class="grade" id="grade">
         <div class="headline">
             <h2>
-                <span>A GRADE MAIS CURRICULAR</span>
+                <span>A GRADE CURRICULAR MAIS</span>
                 <br>
                 <span>COMPLETA DO MERCADO</span>
             </h2>
@@ -465,12 +465,12 @@ get_header();
         </div>
         <div class="arrow-right">
             <!--preview-->
-            <img src="https://res.cloudinary.com/dfjajuiwn/image/upload/v1728633270/arrow-right-svgrepo-com_tt7dt7.svg" alt="arrow right" id="preview">
+            <img src="https://res.cloudinary.com/dfjajuiwn/image/upload/v1728633270/arrow-right-svgrepo-com_tt7dt7.svg" alt="arrow right" id="prev" onclick="prevSlider()">
             <!--next-->
-            <img src="https://res.cloudinary.com/dfjajuiwn/image/upload/v1728633270/arrow-right-svgrepo-com_tt7dt7.svg" alt="arrow right" id="next">
+            <img src="https://res.cloudinary.com/dfjajuiwn/image/upload/v1728633270/arrow-right-svgrepo-com_tt7dt7.svg" alt="arrow right" id="nextr" onclick="nextrSlider()">
         </div>
         <div class="slider">
-            <div class="slide-card" id="slide-01">
+            <div class="slide-card" id="slide-1">
                 <div class="img-card" style="background-image:url('https://res.cloudinary.com/dfjajuiwn/image/upload/v1728599585/Depoente-5_wgqflq.avif')">
                     <div class="alu-name">
                         Gustavo
@@ -483,7 +483,7 @@ get_header();
                     </p>
                 </div>
             </div>
-            <div class="slide-card" id="slide-02">
+            <div class="slide-card" id="slide-2">
                 <div class="img-card" style="background-image:url('https://res.cloudinary.com/dfjajuiwn/image/upload/v1728599584/Depoente-11_qzhchn.avif')">
                     <div class="alu-name">
                         Renan Silva
@@ -496,7 +496,7 @@ get_header();
                     </p>
                 </div>
             </div>
-            <div class="slide-card" id="slide-03">
+            <div class="slide-card" id="slide-3">
                 <div class="img-card" style="background-image:url('https://res.cloudinary.com/dfjajuiwn/image/upload/v1728599583/Depoente-6_mndkig.avif')">
                     <div class="alu-name">
                         Ari
@@ -509,7 +509,7 @@ get_header();
                     </p>
                 </div>
             </div>
-            <div class="slide-card" id="slide-04">
+            <div class="slide-card" id="slide-4">
                 <div class="img-card" style="background-image:url('https://res.cloudinary.com/dfjajuiwn/image/upload/v1728599583/Depoente-7_douqjo.avif')">
                     <div class="alu-name">
                         Misodor
@@ -522,7 +522,7 @@ get_header();
                     </p>
                 </div>
             </div>
-            <div class="slide-card" id="slide-05">
+            <div class="slide-card" id="slide-5">
                 <div class="img-card" style="background-image:url('https://res.cloudinary.com/dfjajuiwn/image/upload/v1728599582/Depoente-8_j2gccg.avif')">
                     <div class="alu-name">
                         Mateus
@@ -675,11 +675,14 @@ get_header();
         </div>
 
         <div class="arrow-right">
-            <img src="https://res.cloudinary.com/dfjajuiwn/image/upload/v1728633270/arrow-right-svgrepo-com_tt7dt7.svg" alt="">
+            <!-- Previews -->
+            <img src="https://res.cloudinary.com/dfjajuiwn/image/upload/v1728633270/arrow-right-svgrepo-com_tt7dt7.svg" alt="arrow right" id="prev-ind" onclick="prevSliderInd()">
+            <!--next-->
+            <img src="https://res.cloudinary.com/dfjajuiwn/image/upload/v1728633270/arrow-right-svgrepo-com_tt7dt7.svg" alt="arrow right" id="next-ind" onclick="nextSliderInd()">
         </div>
         
         <div class="slider">
-            <div class="slide-card" id="slide-01">
+            <div class="slide-card" id="slide-001">
                 <div class="img-card">
                     <div class="alu-name">
                         Tulio Faria
@@ -705,7 +708,7 @@ get_header();
                     </p>
                 </div>
             </div>
-            <div class="slide-card" id="slide-03">
+            <div class="slide-card" id="slide-003">
                 <div class="img-card">
                     <div class="alu-name">
                         UniFap

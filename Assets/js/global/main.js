@@ -33,7 +33,7 @@ lines.forEach(line => {
     })
 })
 
-//slider
+//slider-Home
 const preview = document.getElementById("preview");
 const next = document.getElementById("next");
 
@@ -60,6 +60,52 @@ function nextSlider() {
         
     });
 }
+
+//slider-Afiliados
+
+function prevSlider() {
+    const element = document.getElementById('slide-1');
+    
+    element.scrollIntoView({
+        behavior: 'smooth',
+        inline: 'nearest',
+        block: 'nearest'
+        
+    });
+}
+
+function nextrSlider() {
+    const element = document.getElementById('slide-5');
+    element.scrollIntoView({
+        behavior: 'smooth',
+        inline: 'nearest',
+        block: 'nearest'
+        
+    });
+}
+
+//slider-ind
+function prevSliderInd() {
+    const element = document.getElementById('slide-001');
+    
+    element.scrollIntoView({
+        behavior: 'smooth',
+        inline: 'nearest',
+        block: 'nearest'
+        
+    });
+}
+
+function nextSliderInd() {
+    const element = document.getElementById('slide-003');
+    element.scrollIntoView({
+        behavior: 'smooth',
+        inline: 'nearest',
+        block: 'nearest'
+        
+    });
+}
+
 
 //Video Player
 const player = cloudinary.videoPlayer('player', {

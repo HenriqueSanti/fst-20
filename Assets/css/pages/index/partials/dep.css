@@ -25,7 +25,7 @@ section#depoimentos {
     border-radius: 100%;
 }
 
-.arrow-right img#preview {
+.arrow-right img#preview, #prev, #prev-ind, #prev-ind-af {
     rotate: 180deg;
 }
 

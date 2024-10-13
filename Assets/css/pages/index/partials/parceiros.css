@@ -45,12 +45,12 @@ section.quem-indica .slide-card .img-card {
     border: .1px solid var(--stroke);
 }
 
-section.quem-indica #slide-01 .img-card {
+section.quem-indica #slide-001 .img-card {
     background-image: url(https://res.cloudinary.com/dfjajuiwn/image/upload/v1728599600/Tulio-Faria-Normal_y3oh22.avif);
     transition: all .5s ease-in-out;
 }
 
-section.quem-indica #slide-01:hover .img-card {
+section.quem-indica #slide-001:hover .img-card {
     background-image: url(https://res.cloudinary.com/dfjajuiwn/image/upload/v1728599599/Tulio-Faria-Active_wyzaix.avif);
 }
 
@@ -63,12 +63,12 @@ section.quem-indica #slide-02:hover .img-card {
     background-image: url(https://res.cloudinary.com/dfjajuiwn/image/upload/v1728599597/Rodrigo-Branas-Active_q1hxwq.avif);
 }
 
-section.quem-indica #slide-03 .img-card {
+section.quem-indica #slide-003 .img-card {
     background-image: url(https://res.cloudinary.com/dfjajuiwn/image/upload/v1728599597/UniFap-Normal_tgrzyt.avif);
     transition: all .5s ease-in-out;
 }
 
-section.quem-indica #slide-03:hover .img-card {
+section.quem-indica #slide-003:hover .img-card {
     background-image: url(https://res.cloudinary.com/dfjajuiwn/image/upload/v1728599599/UniFap-Active_bzxydh.avif);
 }
 

@@ -81,6 +81,22 @@ iframe {
     height: 480px;
 }
 
+/*HERO HD DESKTOP*/
+@media screen and (max-width: 1366px) {
+    section.hero .main-col .headline {
+        padding: 80px 40px 30px 40px;
+        gap: 10px;
+    }
+
+    section.hero .title {
+        font-size: var(--text-xl-hd);
+    }
+    .video {
+        width: 384px;
+        height: 216px;
+    }
+}
+
 /* HERO TABLET */
 @media screen and (max-width: 768px) {
     section.hero {

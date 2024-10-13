@@ -72,6 +72,15 @@ footer .blog a, .contato a {
     footer {
         padding: 0 var(--container-tablet);
     }
+
+    footer .container .col {
+        height: 100%;
+    }
+
+    footer .headline {
+        padding: auto;
+        gap: 10px;
+    }
 }
 
 /*FOOTER TABLET*/
