@@ -10,6 +10,16 @@ section.step-by-step .col img {
     left: -20;
 }
 
+/*STEP-BY-STEP DESKTOP HD*/
+@media screen and (max-width: 1366px) {
+    
+    section.step-by-step .col img {
+        max-width: var(--img-w3);
+        left: -46px;
+        bottom: 50px;
+    }
+}
+
 
 /*STEP-BY-STEP TABLET*/
 @media screen and (max-width: 768px) {

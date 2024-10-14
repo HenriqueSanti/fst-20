@@ -15,12 +15,12 @@
     /*font-size*/
     --p: clamp(14px, 1vw, 20px);
     --text-sm: clamp(22px, 3vw, 36px);
-    --text-md: clamp(28px, 3vw, 48px);
+    --text-md: clamp(28px, 3vw, 40px);
     --text-lg: clamp(32px, 4vw, 45px);
     --text-xl: clamp(45px, 5vw, 70px);
-    --text-btn: clamp(16px, 3vw, 24px);
+    --text-btn: clamp(16px, 3vw, 20px);
 
-    --text-xl-hd: clamp(45px, 4vw, 68px);
+    --text-xl-hd: clamp(35px, 3vw, 58px);
 
     /*Images-Width*/
     --img-w1: clamp(700px, 70vw, 1150px);

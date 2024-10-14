@@ -17,6 +17,14 @@ h2 span:last-child {
     color: var(--text-light);
 }
 
+/*SOBRE DESKTOP HD*/
+@media screen and (max-width: 1366px) {
+    
+    section.sobre .col img {
+        max-width: var(--img-w2);
+        bottom: 40px;
+    }
+}
 
 /*SOBRE TABLET*/
 @media screen and (max-width: 768px) {

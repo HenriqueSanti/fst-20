@@ -74,6 +74,14 @@ section#mentor {
     }
 }
 
+/*GRADE DESKTOP HD*/
+@media screen and (max-width: 1366px) {
+    section#mentor .headline {
+        padding: 40px;
+        gap: 10px;
+    }
+}
+
 @media (max-width:1300px) {
     .mentor-img {
         width: var(--img-w3);

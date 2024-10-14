@@ -44,7 +44,7 @@ section.pq-fazer .col {
 }
 
 .col-2 .salary .bar-bg .bar {
-    width: 55%;
+    width: 60%;
 }
 
 .col-3 .salary{
@@ -61,6 +61,19 @@ section.pq-fazer .col {
 
 .col-4 .salary .bar-bg .bar {
     width: 90%;
+}
+
+@media screen and (max-width: 1366px) {
+    section.pq-fazer .col-1 .headline {
+        grid-row: 2/5;
+    }
+    .salary .bar-bg .bar {
+        padding: 20px 15px;
+    }
+    .salary {
+        font-size: var(--text-btn-hd);
+        gap: 20px;
+    }
 }
 
 /*PQ TABLET*/

@@ -83,17 +83,23 @@ iframe {
 
 /*HERO HD DESKTOP*/
 @media screen and (max-width: 1366px) {
-    section.hero .main-col .headline {
+    /* section.hero .main-col .headline {
         padding: 80px 40px 30px 40px;
         gap: 10px;
-    }
+    } */
 
     section.hero .title {
         font-size: var(--text-xl-hd);
+        margin-top: 30px;
     }
     .video {
         width: 384px;
         height: 216px;
+
+        bottom: 2rem;
+    }
+    .main-col button.btn-s {
+        font-size: var(--text-btn-hd);
     }
 }
 

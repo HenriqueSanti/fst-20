@@ -63,8 +63,8 @@ section {
 
 .col {
     display: flex;
-    justify-content: start;
-    align-items: start;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     flex-direction: column;
     border-left: .1px solid var(--stroke);
@@ -76,17 +76,44 @@ section {
 
 .headline {
     display: flex;
-    justify-content: start;
+    justify-content: center;
     align-items: start;
     width: 100%;
     flex-direction: column;
-    padding: 140px 40px 40px 40px;
+    padding: 0 40px 40px 40px;
     gap: 20px;
 }
 
 @media screen and (max-width:1440px) {
     section {
         padding: 0 var(--container-tablet);
+    }
+}
+
+@media screen and (max-width:1366px) {
+    h1 {
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 1;
+    }
+    
+    h2 {
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 1;
+    }
+    
+    h3 {
+        font-size: 22px;
+        font-weight: 600;
+        line-height: 1;
+    }
+    
+    p {
+        font-size: 14px;
+    }
+    .headline {
+        gap: 14px;
     }
 }
 
@@ -116,6 +143,28 @@ section {
     .headline {
         padding: 80px 20px;
         gap: 20px;
+    }
+
+    h1 {
+        font-size: var(--text-lg);
+        font-weight: 600;
+        line-height: 1.2;
+    }
+    
+    h2 {
+        font-size: var(--text-md);
+        font-weight: 600;
+        line-height: 1.2;
+    }
+    
+    h3 {
+        font-size: var(--text-sm);
+        font-weight: 600;
+        line-height: 1.2;
+    }
+    
+    p {
+        font-size: var(--p);
     }
 }
 

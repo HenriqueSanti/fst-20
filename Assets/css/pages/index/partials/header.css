@@ -99,15 +99,22 @@ a.wpp-btn .call {
     }
 }
 
+@media screen and (max-width:1366px) {
+    .logo img {
+        width: 70%;;
+    }
+    a.wpp-btn {
+    
+        bottom: 1rem;
+        right: 0;
+    }
+}
+
 /*HEADER TABLET*/
 @media screen and (max-width:768px) {
     header {
         padding: .5rem var(--container-tablet);
         
-    }
-
-    .logo img {
-        width: 70%;;
     }
 
     nav {

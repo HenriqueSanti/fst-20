@@ -95,6 +95,28 @@ section#depoimentos {
     }
 }
 
+/*GRADE DESKTOP HD*/
+@media screen and (max-width: 1366px) {
+    section#depoimentos .headline {
+        padding: 40px;
+        gap: 10px;
+    }
+    .slide-card .img-card {
+        width: 195px;
+        height: 383px;
+        font-size: var(--p);
+        padding: 20px;
+    }
+    .slide-card .dep-card {
+        width: 195px;
+        padding: 40px;
+        padding: 20px;
+    }
+    .slide-card .dep-card p {
+        font-size: var(--text-btn);
+    }
+}
+
 /*DEPOIMENTOS TABLET*/
 @media (max-width: 768px) {
     section#depoimentos {

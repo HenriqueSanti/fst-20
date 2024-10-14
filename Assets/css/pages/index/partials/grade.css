@@ -102,6 +102,31 @@ section.grade {
     margin-left: -50px;
 }
 
+/*GRADE DESKTOP HD*/
+@media screen and (max-width: 1366px) {
+    section.grade .headline {
+        padding: 40px;
+        gap: 10px;
+    }
+    .cordeon-header {
+        font-size: var(--text-sm);
+    }
+    .cordeon-body {
+        font-size: var(--text-btn-hd);
+    }
+    .cordeon-body .images-block img {
+        max-width: 50px;
+        max-height: 50px;
+    }
+    .cordeon-body .images-block img:nth-child(2) {
+        margin-left: -25px;
+    }
+    
+    .cordeon-body .images-block img:nth-child(3) {
+        margin-left: -25px;
+    }
+}
+
 /*GRADE TABLET*/
 @media (max-width: 768px) {
     .cordeon-header {
