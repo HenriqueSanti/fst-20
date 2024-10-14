@@ -6,8 +6,8 @@ section.step-by-step .col {
 
 section.step-by-step .col img {
     position: absolute;
-    max-width: var(--img-w2);
-    left: -20;
+    width: var(--img-w2);
+    left: -20px;
 }
 
 /*STEP-BY-STEP DESKTOP HD*/
@@ -31,6 +31,8 @@ section.step-by-step .col img {
         transform: translateX(-3.5%);
         position: inherit;
         max-width: 100%;
+        bottom: 0;
+        left: 0;
     }
 }
 

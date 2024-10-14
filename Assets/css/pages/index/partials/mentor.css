@@ -80,6 +80,9 @@ section#mentor {
         padding: 40px;
         gap: 10px;
     }
+    .mentor-name {
+        font-size: var(--text-md);
+    }
 }
 
 @media (max-width:1300px) {

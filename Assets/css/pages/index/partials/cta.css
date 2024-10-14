@@ -156,6 +156,15 @@ section.cta .main-col button.btn-s:hover {
     }
 }
 
+@media screen and (max-width: 1366px) {
+    section.cta .headline {
+        gap: 0;
+    }
+    section.cta .main-col .headline ul {
+        padding: .4rem 0;
+    }
+}
+
 /*CTA TABLET*/
 @media (max-width: 768px) {
     section.cta {
@@ -197,6 +206,8 @@ section.cta .main-col button.btn-s:hover {
 
     .cta .col-ft {
         grid-column: 1;
+        display: flex;
+        align-items: start;
     }
 
     .cta .col-s {
@@ -215,6 +226,7 @@ section.cta .main-col button.btn-s:hover {
         padding: 0 var(--container mobile);
         gap: .5rem;
     }
+    
 
     .cta .headline .title {
         display: block;
