@@ -11,7 +11,7 @@ get_header();
     <!--  HEADER -->
     <header>
         <div class="logo">
-            <img src="https://res.cloudinary.com/dfjajuiwn/image/upload/v1728604732/tipscode-logo_mk6skd.webp" alt="logo da tipscode">
+            <img src="<?php bloginfo('template_url'); ?>/fst-images-cn/tipscode-logo.webp" alt="logo da tipscode">
         </div>
 
         <!-- Navbar-->
@@ -42,7 +42,7 @@ get_header();
         </nav>
 
         <a href="https://api.whatsapp.com/send/?phone=5588999073834&text=Estou+vindo+do+site%21&type=phone_number&app_absent=0" target="_blank" class="wpp-btn">
-            <img src="https://res.cloudinary.com/dfjajuiwn/image/upload/v1728735349/toppng.com-logo-whatsapp-png-blanco-whatsapp-icon-grey-543x577_dgjyw8.webp" alt="WhatsApp Icon">
+            <img src="<?php bloginfo('template_url'); ?>/fst-images-cn/wpp.webp" alt="WhatsApp Icon">
 
             <span class="call">
                 Chamar
@@ -51,7 +51,7 @@ get_header();
     </header>
 
     <!--HERO-->
-    <section class="hero">
+    <section class="hero" style="background-image:url('<?php bloginfo("template_url"); ?>/fst-images-cn/pagina/image-bg-hero-01-_1_.avif')">
         <!--Main Column-->
         <div class="col main-col">
             <div class="headline">
