@@ -46,8 +46,9 @@ section.quem-indica .slide-card .img-card {
 }
 
 section.quem-indica #slide-001 .img-card {
-    background-image: url(https://res.cloudinary.com/dfjajuiwn/image/upload/v1728599600/Tulio-Faria-Normal_y3oh22.avif);
     transition: all .5s ease-in-out;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 section.quem-indica #slide-001:hover .img-card {

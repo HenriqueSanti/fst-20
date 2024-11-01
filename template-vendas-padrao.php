@@ -79,12 +79,9 @@ get_header();
         <div class="col">
             <div class="video">
                 <iframe
-                    src="https://player.cloudinary.com/embed/?public_id=Curso_Full_Stack_Turbo_por_DENTRO_-_Saiba_todos_os_detalhes_eqhmvv&cloud_name=dfjajuiwn&player[showLogo]=false&source[poster]=https%3A%2F%2Fres.cloudinary.com%2Fdfjajuiwn%2Fimage%2Fupload%2Fimage-bg-hero-01-_1__u65fm9.jpg&source[info][title]=Full%20Stack%20Turbo%20por%20dentro&source[info][subtitle]=Entenda%20com%20ofunciona%20o%20curso%20Full%20Stack%20Turbo%20por%20dentro"
+                    src="https://youtube.com/embed/tZ7o07FwGKE"
                     width="640"
                     height="360"
-                    allow="autoplay; fullscreen; encrypted-media; picture-in-picture"
-                    undefined
-                    allowfullscreen
                     frameborder="0"
                 >
                 </iframe>
@@ -95,20 +92,20 @@ get_header();
     <!--Technologies Marquee-->
     <div class="marquee">
         <div class="text-wrapper">
-            <img src="https://res.cloudinary.com/dfjajuiwn/image/upload/v1728599589/HTML_srmohi.avif" alt="html logo">
-            <img src="https://res.cloudinary.com/dfjajuiwn/image/upload/v1728599589/CSS_nkwbc4.avif" alt="css logo">
-            <img src="https://res.cloudinary.com/dfjajuiwn/image/upload/v1728599592/BOOTSTRAP_rhsmmx.avif" alt="bootstrap logo">
-            <img src="https://res.cloudinary.com/dfjajuiwn/image/upload/v1728599590/JAVASCRIPT_swcpi9.avif" alt="javascript logo">
-            <img src="https://res.cloudinary.com/dfjajuiwn/image/upload/v1728599596/REACT.JS_lkf03w.avif" alt="react js logo">
-            <img src="https://res.cloudinary.com/dfjajuiwn/image/upload/v1728599595/NODE.JS_vxfly1.avif" alt="node js logo">
-            <img src="https://res.cloudinary.com/dfjajuiwn/image/upload/v1728599586/EXPRESS.JS_aznf6o.avif" alt="express js logo">
-            <img src="https://res.cloudinary.com/dfjajuiwn/image/upload/v1728599593/EJS_qnw3zh.avif" alt="ejs logo">
-            <img src="https://res.cloudinary.com/dfjajuiwn/image/upload/v1728599594/SQL_gull1a.avif" alt="sql logo">
-            <img src="https://res.cloudinary.com/dfjajuiwn/image/upload/v1728599590/MONGODB_wlzihp.avif" alt="mongo db logo">
-            <img src="https://res.cloudinary.com/dfjajuiwn/image/upload/v1728599593/MONGOOSE_aiudvo.avif" alt="mongoose logo">
-            <img src="https://res.cloudinary.com/dfjajuiwn/image/upload/v1728599587/GIT_tgaz0n.avif" alt="git logo">
-            <img src="https://res.cloudinary.com/dfjajuiwn/image/upload/v1728599586/GITHUB_nmi87g.avif" alt="github logo">
-            <img src="https://res.cloudinary.com/dfjajuiwn/image/upload/v1728599588/TERMINAL-LINUX_h9yvay.avif" alt="linux logo">
+            <img src="<?php bloginfo('template_url'); ?>/fst-images-cn/marquee/HTML.avif" alt="html logo">
+            <img src="<?php bloginfo('template_url'); ?>/fst-images-cn/marquee/CSS.avif" alt="css logo">
+            <img src="<?php bloginfo('template_url'); ?>/fst-images-cn/marquee/BOOTSTRAP.avif" alt="bootstrap logo">
+            <img src="<?php bloginfo('template_url'); ?>/fst-images-cn/marquee/JAVASCRIPT.avif" alt="javascript logo">
+            <img src="<?php bloginfo('template_url'); ?>/fst-images-cn/marquee/REACT.JS.avif" alt="react js logo">
+            <img src="<?php bloginfo('template_url'); ?>/fst-images-cn/marquee/NODE.JS.avif" alt="node js logo">
+            <img src="<?php bloginfo('template_url'); ?>/fst-images-cn/marquee/EXPRESS.JS.avif" alt="express js logo">
+            <img src="<?php bloginfo('template_url'); ?>/fst-images-cn/marquee/EJS.avif" alt="ejs logo">
+            <img src="<?php bloginfo('template_url'); ?>/fst-images-cn/marquee/SQL.avif" alt="sql logo">
+            <img src="<?php bloginfo('template_url'); ?>/fst-images-cn/marquee/MONGODB.avif" alt="mongo db logo">
+            <img src="<?php bloginfo('template_url'); ?>/fst-images-cn/marquee/MONGOOSE.avif" alt="mongoose logo">
+            <img src="<?php bloginfo('template_url'); ?>/fst-images-cn/marquee/GIT.avif" alt="git logo">
+            <img src="<?php bloginfo('template_url'); ?>/fst-images-cn/marquee/GITHUB.avif" alt="github logo">
+            <img src="<?php bloginfo('template_url'); ?>/fst-images-cn/marquee/TERMINAL-LINUX.avif" alt="linux logo">
         </div>
     </div>
 
@@ -139,7 +136,7 @@ get_header();
         <div class="col"></div>
 
         <div class="col">
-            <img src="https://res.cloudinary.com/dfjajuiwn/image/upload/v1728603071/mais-sobre-o-turbo-_1__pxwazu.webp" alt="o motor do full stack turbo">
+            <img src="<?php bloginfo('template_url'); ?>/fst-images-cn/sobre-o-turbo.webp" alt="o motor do full stack turbo">
         </div>
     </section>
 
@@ -147,7 +144,7 @@ get_header();
     <section class="step-by-step" id="metodo">
 
         <div class="col">
-            <img src="https://res.cloudinary.com/dfjajuiwn/image/upload/v1728603071/img-step-by-step-_1__w8fhgh.webp" alt="Sobre o método step-by-step">
+            <img src="<?php bloginfo('template_url'); ?>/fst-images-cn/step-by-step.webp" alt="Sobre o método step-by-step">
         </div>
 
         <div class="col"></div>
@@ -249,7 +246,7 @@ get_header();
     </section>
 
     <!--Acesso-->
-    <section class="acesso" style="background-image:url('https://res.cloudinary.com/dfjajuiwn/image/upload/v1728599573/Background-Turbo_malvv4.avif')">
+    <section class="acesso" style="background-image:url('<?php bloginfo("template_url"); ?>/fst-images-cn/pagina/Background-Turbo.avif')">
         <div class="acesso-content">
             <div class="headline acesso-headline">
                 <h2>
@@ -322,9 +319,9 @@ get_header();
                     </div>
 
                     <div class="images-block">
-                        <img src="https://res.cloudinary.com/dfjajuiwn/image/upload/v1728599595/vscode_ybkif5.avif" alt="VScode tipscode">
+                        <img src="<?php bloginfo('template_url'); ?>/fst-images-cn/marquee/vscode.avif" alt="VScode tipscode">
 
-                        <img src="https://res.cloudinary.com/dfjajuiwn/image/upload/v1728599591/Chrome_hbtwce.avif" alt="Chrome tipscode">
+                        <img src="<?php bloginfo('template_url'); ?>/fst-images-cn/marquee/Chrome.avif" alt="Chrome tipscode">
                     </div>
                 </div>
             </div>
@@ -341,11 +338,11 @@ get_header();
                     </div>
 
                     <div class="images-block">
-                        <img src="https://res.cloudinary.com/dfjajuiwn/image/upload/v1728599589/HTML_srmohi.avif" alt="html tipscode">
+                        <img src="<?php bloginfo('template_url'); ?>/fst-images-cn/marquee/HTML.avif" alt="html tipscode">
 
-                        <img src="https://res.cloudinary.com/dfjajuiwn/image/upload/v1728599589/CSS_nkwbc4.avif" alt="css tipscode">
+                        <img src="<?php bloginfo('template_url'); ?>/fst-images-cn/marquee/CSS.avif" alt="css tipscode">
 
-                        <img src="https://res.cloudinary.com/dfjajuiwn/image/upload/v1728599592/BOOTSTRAP_rhsmmx.avif" alt="tipscode">
+                        <img src="<?php bloginfo('template_url'); ?>/fst-images-cn/marquee/CSS.avif" alt="tipscode">
                     </div>
                 </div>
             </div>
@@ -362,9 +359,9 @@ get_header();
                     </div>
 
                     <div class="images-block">
-                        <img src="https://res.cloudinary.com/dfjajuiwn/image/upload/v1728599590/JAVASCRIPT_swcpi9.avif" alt="Javascript tipscode">
+                        <img src="<?php bloginfo('template_url'); ?>/fst-images-cn/marquee/JAVASCRIPT.avif" alt="Javascript tipscode">
 
-                        <img src="https://res.cloudinary.com/dfjajuiwn/image/upload/v1728599596/REACT.JS_lkf03w.avif" alt="React tipscode">
+                        <img src="<?php bloginfo('template_url'); ?>/fst-images-cn/marquee/REACT.JS.avif" alt="React tipscode">
                     </div>
                 </div>
             </div>
@@ -381,11 +378,11 @@ get_header();
                     </div>
 
                     <div class="images-block">
-                        <img src="https://res.cloudinary.com/dfjajuiwn/image/upload/v1728599595/NODE.JS_vxfly1.avif" alt="node tipscode">
+                        <img src="<?php bloginfo('template_url'); ?>/fst-images-cn/marquee/NODE.JS.avif" alt="node tipscode">
 
-                        <img src="https://res.cloudinary.com/dfjajuiwn/image/upload/v1728599593/EJS_qnw3zh.avif" alt="ejs tipscode">
+                        <img src="<?php bloginfo('template_url'); ?>/fst-images-cn/marquee/EJS.avif" alt="ejs tipscode">
 
-                        <img src="https://res.cloudinary.com/dfjajuiwn/image/upload/v1728599586/EXPRESS.JS_aznf6o.avif" alt="express js tipscode">
+                        <img src="EXPRESS" alt="express js tipscode">
                     </div>
                 </div>
             </div>
@@ -402,11 +399,11 @@ get_header();
                     </div>
 
                     <div class="images-block">
-                        <img src="https://res.cloudinary.com/dfjajuiwn/image/upload/v1728599594/SQL_gull1a.avif" alt="sql tipscode">
+                        <img src="<?php bloginfo('template_url'); ?>/fst-images-cn/marquee/SQL.avif" alt="sql tipscode">
 
-                        <img src="https://res.cloudinary.com/dfjajuiwn/image/upload/v1728599590/MONGODB_wlzihp.avif" alt="mongodb tipscode">
+                        <img src="<?php bloginfo('template_url'); ?>/fst-images-cn/marquee/MONGODB.avif" alt="mongodb tipscode">
 
-                        <img src="https://res.cloudinary.com/dfjajuiwn/image/upload/v1728599593/MONGOOSE_aiudvo.avif" alt="mongoose tipscode">
+                        <img src="<?php bloginfo('template_url'); ?>/fst-images-cn/marquee/MONGOOSE.avif" alt="mongoose tipscode">
                     </div>
                 </div>
             </div>
@@ -423,11 +420,11 @@ get_header();
                     </div>
 
                     <div class="images-block">
-                        <img src="https://res.cloudinary.com/dfjajuiwn/image/upload/v1728599587/GIT_tgaz0n.avif" alt="git tipscode">
+                        <img src="<?php bloginfo('template_url'); ?>/fst-images-cn/marquee/GIT.avif" alt="git tipscode">
 
-                        <img src="https://res.cloudinary.com/dfjajuiwn/image/upload/v1728599586/GITHUB_nmi87g.avif" alt="github tipscode">
+                        <img src="<?php bloginfo('template_url'); ?>/fst-images-cn/marquee/GITHUB.avif" alt="github tipscode">
 
-                        <img src="https://res.cloudinary.com/dfjajuiwn/image/upload/v1728599588/TERMINAL-LINUX_h9yvay.avif" alt="linux tipscode">
+                        <img src="<?php bloginfo('template_url'); ?>/fst-images-cn/marquee/TERMINAL-LINUX.avif" alt="linux tipscode">
                     </div>
                 </div>
             </div>
@@ -444,10 +441,10 @@ get_header();
                     </div>
 
                     <div class="images-block">
-                        <img src="https://res.cloudinary.com/dfjajuiwn/image/upload/v1728631630/Gustavo-Eng-Google_1_urqfvp.avif" alt="engenheiro google tipscode">
-                        <img src="https://res.cloudinary.com/dfjajuiwn/image/upload/v1728599591/Chrome_hbtwce.avif" alt="google">
-                        <img src="https://res.cloudinary.com/dfjajuiwn/image/upload/v1728631631/Rodrigo-Eng-Facebook_1_dq6pnd.avif" alt="engenheiro facebook tipscode">
-                        <img src="https://res.cloudinary.com/dfjajuiwn/image/upload/v1728629862/fb-logo_ij0i5q.avif" alt=" facebooktipscode">
+                        <img src="<?php bloginfo('template_url'); ?>/fst-images-cn/marquee/Gustavo-Eng-Google.avif" alt="engenheiro google tipscode">
+                        <img src="<?php bloginfo('template_url'); ?>/fst-images-cn/marquee/Chrome.avif" alt="google">
+                        <img src="<?php bloginfo('template_url'); ?>/fst-images-cn/marquee/Rodrigo-Eng-Facebook.avif" alt="engenheiro facebook tipscode">
+                        <img src="<?php bloginfo('template_url'); ?>/fst-images-cn/marquee/fb-logo.avif" alt=" facebook tipscode">
                     </div>
                 </div>
             </div>
@@ -465,13 +462,13 @@ get_header();
         </div>
         <div class="arrow-right">
             <!--preview-->
-            <img src="https://res.cloudinary.com/dfjajuiwn/image/upload/v1728633270/arrow-right-svgrepo-com_tt7dt7.svg" alt="arrow right" id="preview">
+            <img src="<?php bloginfo('template_url'); ?>/fst-images-cn/social-icons/arrow-right-svgrepo-com.svg" alt="arrow right" id="preview">
             <!--next-->
-            <img src="https://res.cloudinary.com/dfjajuiwn/image/upload/v1728633270/arrow-right-svgrepo-com_tt7dt7.svg" alt="arrow right" id="next">
+            <img src="<?php bloginfo('template_url'); ?>/fst-images-cn/social-icons/arrow-right-svgrepo-com.svg" alt="arrow right" id="next">
         </div>
         <div class="slider">
             <div class="slide-card" id="slide-01">
-                <div class="img-card" style="background-image:url('https://res.cloudinary.com/dfjajuiwn/image/upload/v1728599585/Depoente-5_wgqflq.avif')">
+                <div class="img-card" style="background-image:url('<?php bloginfo("template_url"); ?>/fst-images-cn/depoimentos/Depoente-5.avif')">
                     <div class="alu-name">
                         Gustavo
                     </div>
@@ -484,7 +481,7 @@ get_header();
                 </div>
             </div>
             <div class="slide-card" id="slide-02">
-                <div class="img-card" style="background-image:url('https://res.cloudinary.com/dfjajuiwn/image/upload/v1728599584/Depoente-11_qzhchn.avif')">
+                <div class="img-card" style="background-image:url('<?php bloginfo("template_url"); ?>/fst-images-cn/depoimentos/Depoente-11.avif')">
                     <div class="alu-name">
                         Renan Silva
                     </div>
@@ -497,7 +494,7 @@ get_header();
                 </div>
             </div>
             <div class="slide-card" id="slide-03">
-                <div class="img-card" style="background-image:url('https://res.cloudinary.com/dfjajuiwn/image/upload/v1728599583/Depoente-6_mndkig.avif')">
+                <div class="img-card" style="background-image:url('<?php bloginfo("template_url"); ?>/fst-images-cn/depoimentos/Depoente-6.avif')">
                     <div class="alu-name">
                         Ari
                     </div>
@@ -510,7 +507,7 @@ get_header();
                 </div>
             </div>
             <div class="slide-card" id="slide-04">
-                <div class="img-card" style="background-image:url('https://res.cloudinary.com/dfjajuiwn/image/upload/v1728599583/Depoente-7_douqjo.avif')">
+                <div class="img-card" style="background-image:url('<?php bloginfo("template_url"); ?>/fst-images-cn/depoimentos/Depoente-7.avif')">
                     <div class="alu-name">
                         Misodor
                     </div>
@@ -523,7 +520,7 @@ get_header();
                 </div>
             </div>
             <div class="slide-card" id="slide-05">
-                <div class="img-card" style="background-image:url('https://res.cloudinary.com/dfjajuiwn/image/upload/v1728599582/Depoente-8_j2gccg.avif')">
+                <div class="img-card" style="background-image:url('<?php bloginfo("template_url"); ?>/fst-images-cn/depoimentos/Depoente-8.avif')">
                     <div class="alu-name">
                         Mateus
                     </div>
@@ -554,7 +551,7 @@ get_header();
             <div class="mentor-name-mobile">
                 ALISSON <br> SUASSUNA
             </div>
-            <img src="https://res.cloudinary.com/dfjajuiwn/image/upload/v1728603072/mentor-_1__jzytur.webp" alt="Alisson Suassuna">
+            <img src="<?php bloginfo('template_url'); ?>/fst-images-cn/pagina/mentor.webp" alt="Alisson Suassuna">
         </div>
         <div class="mentor-content">
             <div class="divisor">
@@ -600,7 +597,7 @@ get_header();
     </section>
 
     <!--CTA-->
-    <section class="cta" id="cta">
+    <section class="cta" id="cta" style="background-image:url('<?php bloginfo("template_url"); ?>/fst-images-cn/pagina/Background-Turbo-2.0-_1_.avif')">
 
         <div class="col col-ft">
             <div class="full item-1">
@@ -653,7 +650,7 @@ get_header();
                     <li><span>.</span> comunidade Exclusiva no Discord</li>
                 </ul>
 
-                <img src="https://res.cloudinary.com/dfjajuiwn/image/upload/v1728603069/logos-cart%C3%B5es-_1__dd854b.webp" alt="cartões de crédito">
+                <img src="<?php bloginfo('template_url'); ?>/fst-images-cn/pagina/logos-cartões.webp" alt="cartões de crédito">
             </div>
 
             <a href="https://pay.hotmart.com/B89287898Q?checkoutMode=10" target="blank">
@@ -676,14 +673,14 @@ get_header();
 
         <div class="arrow-right">
             <!--preview-->
-            <img src="https://res.cloudinary.com/dfjajuiwn/image/upload/v1728633270/arrow-right-svgrepo-com_tt7dt7.svg" alt="arrow right" id="prev-ind" onclick="prevSliderInd()">
+            <img src="<?php bloginfo('template_url'); ?>/fst-images-cn/social-icons/arrow-right-svgrepo-com.svg" alt="arrow right" id="prev-ind" onclick="prevSliderInd()">
             <!--next-->
-            <img src="https://res.cloudinary.com/dfjajuiwn/image/upload/v1728633270/arrow-right-svgrepo-com_tt7dt7.svg" alt="arrow right" id="next-ind" onclick="nextSliderInd()">
+            <img src="<?php bloginfo('template_url'); ?>/fst-images-cn/social-icons/arrow-right-svgrepo-com.svg" alt="arrow right" id="next-ind" onclick="nextSliderInd()">
         </div>
         
         <div class="slider">
             <div class="slide-card" id="slide-001">
-                <div class="img-card">
+                <div class="img-card" style="background-image:url('<?php bloginfo("template_url"); ?>/fst-images-cn/parceiros/Tulio-Faria-Normal.avif')">
                     <div class="alu-name">
                         Tulio Faria
                     </div>
@@ -696,7 +693,7 @@ get_header();
                 </div>
             </div>
             <div class="slide-card" id="slide-02">
-                <div class="img-card">
+                <div class="img-card" style="background-image:url('<?php bloginfo("template_url"); ?>/fst-images-cn/parceiros/Rodrigo-Branas-Normal.avif')">
                     <div class="alu-name">
                         Rodrigo Branas
                     </div>
@@ -709,7 +706,7 @@ get_header();
                 </div>
             </div>
             <div class="slide-card" id="slide-003">
-                <div class="img-card">
+                <div class="img-card" style="background-image:url('<?php bloginfo("template_url"); ?>/fst-images-cn/parceiros/UniFap-Normal.avif')">
                     <div class="alu-name">
                         UniFap
                     </div>
