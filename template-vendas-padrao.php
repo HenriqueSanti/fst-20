@@ -51,7 +51,7 @@ get_header();
     </header>
 
     <!--HERO-->
-    <section class="hero" style="background-image:url('<?php bloginfo("template_url"); ?>/fst-images-cn/pagina/image-bg-hero-01-_1_.avif')">
+    <section class="hero" style="background-image:url('<?php bloginfo("template_url"); ?>/images/hero-bg.png')">
         <!--Main Column-->
         <div class="col main-col">
             <div class="headline">
